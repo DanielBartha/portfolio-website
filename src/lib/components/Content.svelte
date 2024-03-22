@@ -51,8 +51,8 @@
         </p>
     </div>
 
-    <div id="aboutMe" class="pt-6 pr-[50rem] pl-24 sm:mx-8 relative">
-        <div class="glass-background rounded-lg">
+    <div id="aboutMe" class="pt-6 pr-[60rem] pl-24 sm:mx-8 relative">
+        <div class="glass-background rounded-lg shadow-2xl">
             <p class="text-white px-5 py-5">
                 Hey there! I'm Daniel, currently pursuing my Bachelor's in
                 HBO-ICT. Passionate about technology with a thirst for knowledge

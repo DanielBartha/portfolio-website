@@ -2,11 +2,11 @@
 
 </script>
 
-<div class="absolute z-10 h-4/5 w-1/2 right-0 flex items-center justify-end pr-36 overflow-y-auto top-1/2 transform -translate-y-1/2">
+<div class="absolute z-10 h-4/5 w-1/2 right-0 flex items-center justify-end pr-36 overflow-y-auto top-1/2 transform -translate-y-1/2 scrollbar-hide">
     <ul class="ml-7 mt-80">
         <li class="flex">
             <div class="year-badge text-white font-mono">2023-2024</div>
-            <div class="glass-background rounded-lg ml-2 mb-4 px-4 py-4">
+            <div class="glass-background rounded-lg ml-2 mb-4 px-4 py-4 shadow-xl">
                 <h3 class="text-white font-mono">Boat Haven Rentals</h3>
                 <div class="h-0.5 w-[30rem] bg-slate-400 rounded-full mt-2 mb-2"></div>
                 <p class="text-white">Designed and implemented a website in Laravel PHP, allowing users to create and manage berth listings for rental purposes, facilitating peer-to-peer berth rental transactions.</p>
@@ -34,7 +34,7 @@
         </li>
         <li class="flex">
             <div class="year-badge text-white font-mono">2024</div>
-            <div class="glass-background rounded-lg ml-2 mb-4 px-4 py-4">
+            <div class="glass-background rounded-lg ml-2 mb-4 px-4 py-4 shadow-xl">
                 <h3 class="text-white font-mono">Web-application for monitoring moods</h3>
                 <div class="h-0.5 w-[30rem] bg-slate-400 rounded-full mt-2 mb-2"></div>
                 <p class="text-white">Developed a web application using Svelte for creating routines, monitoring moods and emotions, and sharing moods on a map.</p>
@@ -59,7 +59,7 @@
         </li>
         <li class="flex">
             <div class="year-badge text-white font-mono">2023</div>
-            <div class="glass-background rounded-lg ml-2 mb-4 px-4 py-4">
+            <div class="glass-background rounded-lg ml-2 mb-4 px-4 py-4 shadow-xl">
                 <h3 class="text-white font-mono">Temperature monitoring web-application for the JRCZ</h3>
                 <div class="h-0.5 w-[30rem] bg-slate-400 rounded-full mt-2 mb-2"></div>
                 <p class="text-white">Created a web application utilizing Laravel Framework to facilitate temperature monitoring for the JRCZ (Joint Research Center of Zeeland).</p>
@@ -81,7 +81,7 @@
         </li>
         <li class="flex">
             <div class="year-badge text-white font-mono">2023</div>
-            <div class="glass-background rounded-lg ml-2 mb-4 px-4 py-4">
+            <div class="glass-background rounded-lg ml-2 mb-4 px-4 py-4 shadow-xl">
                 <h3 class="text-white font-mono">Hackathon</h3>
                 <div class="h-0.5 w-[30rem] bg-slate-400 rounded-full mt-2 mb-2"></div>
                 <p class="text-white">Participated in hackathon. Where we created an introductory screen-saver for one of the biggest displays in the Netherlands, for the Joint Research Center of Zeeland. Using Unity and Blender, we developed an interactive slide show that was clap activated in 24 hours.</p>
@@ -97,7 +97,7 @@
         </li>
         <li class="flex">
             <div class="year-badge text-white font-mono">2022</div>
-            <div class="glass-background rounded-lg ml-2 mb-4  px-4 py-4">
+            <div class="glass-background rounded-lg ml-2 mb-4  px-4 py-4 shadow-xl">
                 <h3 class="text-white font-mono">Danger Dungeon</h3>
                 <div class="h-0.5 w-[30rem] bg-slate-400 rounded-full mt-2 mb-2"></div>
                 <p class="text-white">Developed an educational video game using TypeScript aimed at enhancing digital literacy among children.</p>
