@@ -6,10 +6,10 @@
 
 <section class="bg-gradient-to-r from-cyan-950 to-emerald-950">
     <Navbar />
+    <ProjectScroll />
     <div class="flex justify-center items-center h-screen">
         <div class="flex">
             <Content />
-            <ProjectScroll />
         </div>
     </div>
 </section>
