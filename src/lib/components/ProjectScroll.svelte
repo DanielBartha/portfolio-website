@@ -1,5 +1,5 @@
 <script>
-
+    
 </script>
 
 <div class="absolute z-10 h-4/5 w-1/2 right-0 flex items-center justify-end pr-36 overflow-y-auto top-1/2 transform -translate-y-1/2 scrollbar-hide">
@@ -115,4 +115,11 @@
             </div>
         </li>
     </ul>
+</div>
+
+<div class="bottom-10 left-1/2 absolute transform -translate-x-1/2 scroll-icon">
+    <!-- Animated scroll icon -->
+    <svg class="animate-bounce w-5 h-5 ml-[48rem] text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
+    </svg>
 </div>
