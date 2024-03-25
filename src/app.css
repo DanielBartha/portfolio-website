@@ -1,3 +1,55 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* Define a custom class for the glass effect */
+.glass-background {
+    /* Set the background color with transparency */
+    background-color: rgba(255, 255, 255, 0.1); /* Adjust the alpha value as needed for desired transparency */
+
+    /* Apply backdrop filter for the glass effect */
+    backdrop-filter: blur(10px); /* Adjust the blur radius as needed */
+
+    /* Make the background rounded */
+    border-radius: 1rem; /* Adjust the border-radius value as needed */
+
+    /* Position the highlight div relative to its parent */
+    position: relative;
+}
+
+.highlight {
+    /* Set the highlight color */
+    background-color: rgba(255, 255, 255, 0.2); /* Adjust the alpha value as needed for desired highlight */
+
+    /* Make the highlight circle */
+    border-radius: 50%;
+
+    /* Set the size of the highlight */
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+
+    /* Position the highlight absolutely based on mouse coordinates */
+    position: fixed; /* Change from 'absolute' to 'fixed' */
+    left: 0; /* Initialize position */
+    top: 0; /* Initialize position */
+
+    /* Set the z-index to ensure the highlight is above other content */
+    z-index: 999;
+
+    /* Transition for smooth effect */
+    transition: width 0.3s ease, height 0.3s ease;
+    
+    /* Ensure the shadow doesn't interfere with the cursor */
+    pointer-events: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
