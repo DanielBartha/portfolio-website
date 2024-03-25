@@ -62,6 +62,7 @@
             </p>
         </div>
         <button class="bg-teal-600 hover:bg-teal-400 hover:text-black text-white font-mono z-30 mt-14 ml-2 py-2 px-4 rounded-full">
+            <!-- change later !!!! -->
            <a href="/about">Contact me</a>
         </button>
     </div>
