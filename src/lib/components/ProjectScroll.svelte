@@ -2,7 +2,7 @@
     
 </script>
 
-<div class="absolute z-10 h-4/5 w-1/2 right-0 flex items-center justify-end pr-36 overflow-y-auto top-1/2 transform -translate-y-1/2 scrollbar-hide">
+<div id="topScroll" class="absolute z-10 h-4/5 w-1/2 right-0 flex items-center justify-end pr-36 overflow-y-auto top-1/2 transform -translate-y-1/2 scrollbar-hide">
     <ul class="ml-7 mt-80">
         <li class="flex">
             <div class="year-badge text-white font-mono">2023-2024</div>
@@ -12,22 +12,22 @@
                 <p class="text-white">Designed and implemented a website in Laravel PHP, allowing users to create and manage berth listings for rental purposes, facilitating peer-to-peer berth rental transactions.</p>
                 <ul class="mt-2 flex flex-wrap">
                     <li class="mr-1.5 mt-2">
-                        <div class="flex items-center bg-stone-900 px-3 py-1 font-medium leding-5 text-emerald-300 border-2 border-slate-600">Laravel</div>
+                        <div class="flex items-center bg-stone-900 px-3 py-1 font-medium leding-5 text-emerald-300 border-2 border-slate-400">Laravel</div>
                     </li>
                     <li class="mr-1.5 mt-2">
-                        <div class="flex items-center bg-stone-900 px-3 py-1 font-medium leding-5 text-emerald-300 border-2 border-slate-600">PHP</div>
+                        <div class="flex items-center bg-stone-900 px-3 py-1 font-medium leding-5 text-emerald-300 border-2 border-slate-400">PHP</div>
                     </li>
                     <li class="mr-1.5 mt-2">
-                        <div class="flex items-center bg-stone-900 px-3 py-1 font-medium leding-5 text-emerald-300 border-2 border-slate-600">TailwindCSS</div>
+                        <div class="flex items-center bg-stone-900 px-3 py-1 font-medium leding-5 text-emerald-300 border-2 border-slate-400">TailwindCSS</div>
                     </li>
                     <li class="mr-1.5 mt-2">
-                        <div class="flex items-center bg-stone-900 px-3 py-1 font-medium leding-5 text-emerald-300 border-2 border-slate-600">CSS</div>
+                        <div class="flex items-center bg-stone-900 px-3 py-1 font-medium leding-5 text-emerald-300 border-2 border-slate-400">CSS</div>
                     </li>
                     <li class="mr-1.5 mt-2">
-                        <div class="flex items-center bg-stone-900 px-3 py-1 font-medium leding-5 text-emerald-300 border-2 border-slate-600">JavaScript</div>
+                        <div class="flex items-center bg-stone-900 px-3 py-1 font-medium leding-5 text-emerald-300 border-2 border-slate-400">JavaScript</div>
                     </li>
                     <li class="mr-1.5 mt-2">
-                        <div class="flex items-center bg-stone-900 px-3 py-1 font-medium leding-5 text-emerald-300 border-2 border-slate-600">APIs</div>
+                        <div class="flex items-center bg-stone-900 px-3 py-1 font-medium leding-5 text-emerald-300 border-2 border-slate-400">APIs</div>
                     </li>
                 </ul>
             </div>
@@ -40,19 +40,19 @@
                 <p class="text-white">Developed a web application using Svelte for creating routines, monitoring moods and emotions, and sharing moods on a map.</p>
                 <ul class="mt-2 flex flex-wrap">
                     <li class="mr-1.5 mt-2">
-                        <div class="flex items-center bg-stone-900 px-3 py-1 font-medium leding-5 text-emerald-300 border-2 border-slate-600">Svelte</div>
+                        <div class="flex items-center bg-stone-900 px-3 py-1 font-medium leding-5 text-emerald-300 border-2 border-slate-400">Svelte</div>
                     </li>
                     <li class="mr-1.5 mt-2">
-                        <div class="flex items-center bg-stone-900 px-3 py-1 font-medium leding-5 text-emerald-300 border-2 border-slate-600">SvelteKit</div>
+                        <div class="flex items-center bg-stone-900 px-3 py-1 font-medium leding-5 text-emerald-300 border-2 border-slate-400">SvelteKit</div>
                     </li>
                     <li class="mr-1.5 mt-2">
-                        <div class="flex items-center bg-stone-900 px-3 py-1 font-medium leding-5 text-emerald-300 border-2 border-slate-600">JavaScript</div>
+                        <div class="flex items-center bg-stone-900 px-3 py-1 font-medium leding-5 text-emerald-300 border-2 border-slate-400">JavaScript</div>
                     </li>
                     <li class="mr-1.5 mt-2">
-                        <div class="flex items-center bg-stone-900 px-3 py-1 font-medium leding-5 text-emerald-300 border-2 border-slate-600">TailwindCSS</div>
+                        <div class="flex items-center bg-stone-900 px-3 py-1 font-medium leding-5 text-emerald-300 border-2 border-slate-400">TailwindCSS</div>
                     </li>
                     <li class="mr-1.5 mt-2">
-                        <div class="flex items-center bg-stone-900 px-3 py-1 font-medium leding-5 text-emerald-300 border-2 border-slate-600">Microservices</div>
+                        <div class="flex items-center bg-stone-900 px-3 py-1 font-medium leding-5 text-emerald-300 border-2 border-slate-400">Microservices</div>
                     </li>
                 </ul>
             </div>
@@ -65,16 +65,16 @@
                 <p class="text-white">Created a web application utilizing Laravel Framework to facilitate temperature monitoring for the JRCZ (Joint Research Center of Zeeland).</p>
                 <ul class="mt-2 flex flex-wrap">
                     <li class="mr-1.5 mt-2">
-                        <div class="flex items-center bg-stone-900 px-3 py-1 font-medium leding-5 text-emerald-300 border-2 border-slate-600">Laravel</div>
+                        <div class="flex items-center bg-stone-900 px-3 py-1 font-medium leding-5 text-emerald-300 border-2 border-slate-400">Laravel</div>
                     </li>
                     <li class="mr-1.5 mt-2">
-                        <div class="flex items-center bg-stone-900 px-3 py-1 font-medium leding-5 text-emerald-300 border-2 border-slate-600">PHP</div>
+                        <div class="flex items-center bg-stone-900 px-3 py-1 font-medium leding-5 text-emerald-300 border-2 border-slate-400">PHP</div>
                     </li>
                     <li class="mr-1.5 mt-2">
-                        <div class="flex items-center bg-stone-900 px-3 py-1 font-medium leding-5 text-emerald-300 border-2 border-slate-600">JavaScript</div>
+                        <div class="flex items-center bg-stone-900 px-3 py-1 font-medium leding-5 text-emerald-300 border-2 border-slate-400">JavaScript</div>
                     </li>
                     <li class="mr-1.5 mt-2">
-                        <div class="flex items-center bg-stone-900 px-3 py-1 font-medium leding-5 text-emerald-300 border-2 border-slate-600">CSS</div>
+                        <div class="flex items-center bg-stone-900 px-3 py-1 font-medium leding-5 text-emerald-300 border-2 border-slate-400">CSS</div>
                     </li>
                 </ul>
             </div>
@@ -87,10 +87,10 @@
                 <p class="text-white">Participated in hackathon. Where we created an introductory screen-saver for one of the biggest displays in the Netherlands, for the Joint Research Center of Zeeland. Using Unity and Blender, we developed an interactive slide show that was clap activated in 24 hours.</p>
                 <ul class="mt-2 flex flex-wrap">
                     <li class="mr-1.5 mt-2">
-                        <div class="flex items-center bg-stone-900 px-3 py-1 font-medium leding-5 text-emerald-300 border-2 border-slate-600">Unity</div>
+                        <div class="flex items-center bg-stone-900 px-3 py-1 font-medium leding-5 text-emerald-300 border-2 border-slate-400">Unity</div>
                     </li>
                     <li class="mr-1.5 mt-2">
-                        <div class="flex items-center bg-stone-900 px-3 py-1 font-medium leding-5 text-emerald-300 border-2 border-slate-600">Blender</div>
+                        <div class="flex items-center bg-stone-900 px-3 py-1 font-medium leding-5 text-emerald-300 border-2 border-slate-400">Blender</div>
                     </li>
                 </ul>
             </div>
@@ -103,13 +103,13 @@
                 <p class="text-white">Developed an educational video game using TypeScript aimed at enhancing digital literacy among children.</p>
                 <ul class="mt-2 flex flex-wrap">
                     <li class="mr-1.5 mt-2">
-                        <div class="flex items-center bg-stone-900 px-3 py-1 font-medium leding-5 text-emerald-300 border-2 border-slate-600">TypeScript</div>
+                        <div class="flex items-center bg-stone-900 px-3 py-1 font-medium leding-5 text-emerald-300 border-2 border-slate-400">TypeScript</div>
                     </li>
                     <li class="mr-1.5 mt-2">
-                        <div class="flex items-center bg-stone-900 px-3 py-1 font-medium leding-5 text-emerald-300 border-2 border-slate-600">JavaScript</div>
+                        <div class="flex items-center bg-stone-900 px-3 py-1 font-medium leding-5 text-emerald-300 border-2 border-slate-400">JavaScript</div>
                     </li>
                     <li class="mr-1.5 mt-2">
-                        <div class="flex items-center bg-stone-900 px-3 py-1 font-medium leding-5 text-emerald-300 border-2 border-slate-600">HTML</div>
+                        <div class="flex items-center bg-stone-900 px-3 py-1 font-medium leding-5 text-emerald-300 border-2 border-slate-400">HTML</div>
                     </li>
                 </ul>
             </div>
