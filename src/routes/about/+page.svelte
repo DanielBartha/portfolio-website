@@ -8,7 +8,6 @@
     <About />
     <div class="flex justify-center items-center h-screen">
         <div class="flex">
-
         </div>
     </div>
 </section>
